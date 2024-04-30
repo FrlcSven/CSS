@@ -7,7 +7,7 @@ property: color
 property value:warna pada pinggiran jendela,dinding,atap(seng),tangga,tiang penahan di ubah menjadi warna merah,hitam,abu-abu,abu-abu gelap 
 
 
-![anatomy css.jpg](anatomy%20css.jpg)
+![anatomy css.jpg](ASET%20CSS/anatomy%20css.jpg)
 
 Contoh diatas,yang ingin dimodifikasi adalah seluruh tag `<p>` pada komponen warna teksnya menjadi warna merah
 # Percobaan Pertama
