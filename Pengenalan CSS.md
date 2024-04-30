@@ -73,11 +73,11 @@ button{
 ### Color
 #### Before
 
-![Before color.png](Before%20color.png)
+![Before color.png](ASET%20CSS/Before%20color.png)
 
 #### After
 
-![after color.png](after%20color.png)
+![after color.png](ASET%20CSS/after%20color.png)
 
 
 
@@ -87,12 +87,12 @@ button{
 ### Background-color
 
 #### Before 
-![Before color.png](Before%20color.png)
+![Before color.png](ASET%20CSS/Before%20color.png)
 
 
 #### After
 
-![after background.color.png](after%20background.color.png)
+![after background.color.png](ASET%20CSS/after%20background.color.png)
 
 
 >[!Penjelasan]
@@ -102,11 +102,11 @@ button{
 ### Text-align
 #### Before
 
-![after background.color.png](after%20background.color.png)
+![after background.color.png](ASET%20CSS/after%20background.color.png)
 
 #### After
 
-![after align right.png](after%20align%20right.png)
+![after align right.png](ASET%20CSS/after%20align%20right.png)
 
 
 >[!Penejelasan]
@@ -400,7 +400,7 @@ Dalam contoh ini, kita menggunakan CSS untuk menambahkan efek overline pada teks
 
 #### Hasil
 
-![text deco overline.png](text%20deco%20overline.png)
+![text deco overline.png](ASET%20CSS/text%20deco%20overline.png)
 
 #### Kesimpulan
 Kesimpulan dari kode tersebut adalah bahwa CSS memungkinkan pengembang web untuk memberikan tampilan yang lebih menarik dan kreatif pada teks di situs web mereka. Dengan menggunakan properti seperti text-decoration, efek visual seperti garis di atas teks dapat dengan mudah dicapai. Hal ini memungkinkan pengembang untuk meningkatkan estetika situs web mereka dan membuatnya lebih menarik bagi pengguna.
@@ -428,7 +428,7 @@ Dalam contoh ini, kita menggunakan CSS untuk menambahkan efek underline pada tek
 ```
 #### Hasil
 
-![text deco underline.png](text%20deco%20underline.png)
+![text deco underline.png](ASET%20CSS/text%20deco%20underline.png)
 #### Kesimpulan
 Kesimpulan dari kode tersebut adalah bahwa CSS memungkinkan pengembang web untuk memberikan tampilan yang lebih menarik dan kreatif pada teks di situs web mereka. Dengan menggunakan properti seperti text-decoration, efek visual seperti garis di atas teks dapat dengan mudah dicapai. Hal ini memungkinkan pengembang untuk meningkatkan estetika situs web mereka dan membuatnya lebih menarik bagi pengguna.
 ### line-through
@@ -451,7 +451,7 @@ Dalam contoh ini, kita menggunakan CSS untuk menambahkan efek line-through pada 
 ```
 #### Hasil
 
-![text deco line-trough.png](text%20deco%20line-trough.png)
+![text deco line-trough.png](ASET%20CSS/text%20deco%20line-trough.png)
 #### Kesimpulan
 Kesimpulan dari kode tersebut adalah bahwa CSS memungkinkan pengembang web untuk memberikan tampilan yang lebih menarik dan kreatif pada teks di situs web mereka. Dengan menggunakan properti seperti text-decoration, efek visual seperti garis melintang dapat dengan mudah dicapai. Ini membuka peluang untuk meningkatkan estetika situs web dan membuatnya lebih menarik bagi pengguna.
 
@@ -476,7 +476,7 @@ Kesimpulan dari kode tersebut adalah bahwa CSS memungkinkan pengembang web untuk
 ```
 #### Hasil
 
-![align center.png](align%20center.png)
+![align center.png](ASET%20CSS/align%20center.png)
 #### Kesimpulan
 Menetapkan properti text-align dengan nilai center untuk semua elemen yang memiliki kelas oi. Dengan demikian, semua teks di dalam elemen dengan kelas oi akan diatur menjadi rata tengah secara horizontal.
 
@@ -503,7 +503,7 @@ contoh lainnya :
 ```
 ### Hasil
 
-![capital.png](capital.png)
+![capital.png](ASET%20CSS/capital.png)
 ### Kesimpulan
 Kesimpulan: Program tersebut akan mengubah tampilan teks pada elemen-elemen yang memiliki kelas ".oi" agar setiap kata di dalamnya diawali dengan huruf kapital. Misalnya, jika Anda memiliki elemen HTML seperti `<p class="oi">instagram</p>`, maka setelah penerapan CSS tersebut, teks akan berubah menjadi "Instagram".
 ## Text-Indent
@@ -522,7 +522,7 @@ Dalam hal ini, nilai properti `text-indent` adalah "100px", yang berarti teks da
 ```
 ### Hasil
 
-![text indent.png](text%20indent.png)
+![text indent.png](ASET%20CSS/text%20indent.png)
 ### Kesimpulan
 Program tersebut akan mengatur indentasi teks pada elemen-elemen yang memiliki kelas ".oi" sehingga teks di dalamnya akan dimulai dari jarak 100 piksel dari tepi kiri halaman atau kontainer yang mengandungnya. Misalnya, jika Anda memiliki elemen HTML seperti `<div class="oi">Lorem ipsum dolor sit amet</div>`, maka teks di dalamnya akan dimulai 100 piksel dari tepi kiri.
 ## Letter Spacing
@@ -541,7 +541,7 @@ Dalam hal ini, nilai properti `letter-spacing` adalah "100px", yang berarti jara
 ```
 ### Hasil
 
-![letter spacing.png](letter%20spacing.png)
+![letter spacing.png](ASET%20CSS/letter%20spacing.png)
 ### Kesimpulan
 Kesimpulan: Program tersebut akan mengatur jarak antar huruf dalam teks pada elemen-elemen yang memiliki kelas ".oi" sehingga jarak antar hurufnya menjadi lebih lebar sebesar 100 piksel. Misalnya, jika Anda memiliki elemen HTML seperti `<div class="oi">Hello</div>`, maka teks di dalamnya akan ditampilkan dengan jarak antar huruf yang lebih lebar dari biasanya.
 
@@ -561,7 +561,7 @@ Dalam hal ini, nilai properti `line-height` adalah "100px", yang berarti setiap 
 ```
 ### Hasil
 
-![line height.png](line%20height.png)
+![line height.png](ASET%20CSS/line%20height.png)
 ### Kesimpulan
 Kesimpulan: Program tersebut akan mengatur tinggi baris dalam teks pada elemen-elemen yang memiliki kelas ".oi" sehingga setiap baris teks memiliki tinggi sebesar 100 piksel. Misalnya, jika Anda memiliki elemen HTML seperti `<div class="oi">Lorem ipsum dolor sit amet</div>`, maka setiap baris teks di dalamnya akan memiliki tinggi 100 piksel.
 ## Word-Spacing
@@ -580,7 +580,7 @@ Dalam hal ini, nilai properti `word-spacing` adalah "100px", yang berarti jarak 
 ```
 ### Hasil
 
-![word spacing.png](word%20spacing.png)
+![word spacing.png](ASET%20CSS/word%20spacing.png)
 ### Kesimpulan
 Kesimpulan: Program tersebut akan mengatur jarak antar kata dalam teks pada elemen-elemen yang memiliki kelas ".oi" sehingga jarak antar kata menjadi lebih lebar sebesar 100 piksel. Misalnya, jika Anda memiliki elemen HTML seperti `<div class="oi">Hello World</div>`, maka teks di dalamnya akan ditampilkan dengan jarak antar kata yang lebih lebar dari biasanya.
 # MATERI FONT
@@ -667,7 +667,7 @@ Program di atas adalah kode HTML dan CSS yang mendefinisikan sebuah paragraf den
 ```
 ### Hasil
 
-![Font size.png](Font%20size.png)
+![Font size.png](ASET%20CSS/Font%20size.png)
 ### Kesimpulan
 Kesimpulan dari kode di atas adalah bahwa dengan menggunakan CSS, kita dapat dengan mudah mengontrol tampilan elemen HTML. Dalam contoh ini, kita menggunakan kelas CSS untuk mengubah ukuran font dari paragraf dengan kelas "po". Dengan menggunakan CSS, desain dan tata letak dari elemen-elemen HTML dapat disesuaikan dengan lebih fleksibel, memungkinkan pengembang web untuk menciptakan tampilan yang menarik dan responsif.
 
@@ -689,7 +689,7 @@ Program di atas adalah kode HTML dan CSS yang mendefinisikan sebuah paragraf den
 ```
 ### Hasil
 
-![font weight1.png](font%20weight1.png)
+![font weight1.png](ASET%20CSS/font%20weight1.png)
 ### Kesimpulan
 Kesimpulan dari kode di atas adalah bahwa dengan menggunakan CSS, kita dapat dengan mudah mengontrol berbagai properti gaya dari elemen-elemen HTML. Dalam contoh ini, kita menggunakan CSS untuk mengubah berat font dari paragraf dengan kelas "poo" menjadi lebih tebal. Dengan menggunakan CSS, pengembang web dapat menciptakan tampilan yang lebih menarik dan konsisten di seluruh situs web mereka.
 
@@ -711,7 +711,7 @@ Program di atas adalah kode HTML dan CSS yang mendefinisikan sebuah paragraf den
 ```
 ### Hasil
 
-![font style.png](font%20style.png)
+![font style.png](ASET%20CSS/font%20style.png)
 ### Kesimpulan
 Kesimpulan dari kode di atas adalah bahwa dengan menggunakan CSS, kita dapat dengan mudah mengontrol berbagai properti gaya dari elemen-elemen HTML. Dalam contoh ini, kita menggunakan CSS untuk mengubah gaya font dari paragraf dengan kelas "pooo" menjadi miring. Dengan menggunakan CSS, pengembang web dapat menciptakan tampilan yang lebih variatif dan menarik di seluruh situs web mereka.
 
@@ -732,7 +732,7 @@ Program di atas adalah kode HTML dan CSS yang mendefinisikan sebuah paragraf den
 ```
 ### Hasil
 
-![font family.png](font%20family.png)
+![font family.png](ASET%20CSS/font%20family.png)
 ### Kesimpulan
 Kesimpulan dari kode tersebut adalah bahwa dengan menggunakan CSS, kita dapat dengan mudah mengubah jenis font teks di dalam elemen HTML. Pemilihan jenis font tertentu, seperti 'Courier New' atau 'Courier', dapat memberikan tampilan teks yang konsisten dan mudah dibaca, terutama dalam konteks seperti menampilkan kode program. Penggunaan jenis font monospace juga berguna karena karakter memiliki lebar yang sama, membuatnya lebih mudah untuk dibaca dan memelihara struktur format kode. Dengan demikian, dengan menggunakan CSS, pengembang web dapat mengontrol tampilan teks di situs mereka untuk memenuhi kebutuhan desain dan meningkatkan pengalaman pengguna.
 
@@ -812,7 +812,7 @@ Background-image adalah salah satu properti dalam CSS yang digunakan untuk menen
 ```
 ### Hasil
 
-![bg image.png](bg%20image.png)
+![bg image.png](ASET%20CSS/bg%20image.png)
 ### Kesimpulan
 kesimpulan dari kode tersebut adalah bahwa gambar "jjk.jpg" akan digunakan sebagai latar belakang
 ## Background Zize
@@ -833,7 +833,7 @@ background-size adalah properti dalam CSS yang digunakan untuk mengatur ukuran d
 ```
 ### Hasil
 
-![bg zize.png](bg%20zize.png)
+![bg zize.png](ASET%20CSS/bg%20zize.png)
 ### Kesimpulan
 Kesimpulan dari properti `background-size` dalam CSS adalah bahwa properti ini memungkinkan pengaturan ukuran gambar latar belakang pada sebuah elemen HTML. Dengan menggunakan `background-size`, Anda dapat mengontrol bagaimana gambar tersebut diperbesar atau diperkecil untuk menyesuaikan elemen yang terkait.
 ## Background repeat
@@ -858,7 +858,7 @@ Ketika Anda menetapkan nilai `no-repeat` untuk properti `background-repeat`, ini
 ```
 ### Hasil
 
-![bg no repeat.png](bg%20no%20repeat.png)
+![bg no repeat.png](ASET%20CSS/bg%20no%20repeat.png)
 ### Kesimpulan
 Kesimpulan dari penggunaan `background-repeat: no-repeat;` adalah bahwa properti tersebut menginstruksikan browser untuk tidak mengulang gambar latar belakang di dalam elemen HTML. Dengan menggunakan nilai `no-repeat`, gambar latar belakang hanya akan ditampilkan sekali di dalam elemen tersebut, tanpa diulang baik secara horizontal maupun vertikal.
 ## Background attachment
@@ -883,7 +883,7 @@ Properti `background-attachment` digunakan dalam CSS untuk mengontrol apakah gam
 ```
 ### Hasil
 
-![bg attachmant scroll.png](bg%20attachmant%20scroll.png)
+![bg attachmant scroll.png](ASET%20CSS/bg%20attachmant%20scroll.png)
 ### Kesimpulan
 Kesimpulannya, dengan menggunakan `background-attachment: scroll;`, Anda memastikan bahwa gambar latar belakang akan mengikuti pergerakan konten saat pengguna melakukan scrolling, menciptakan efek visual di mana gambar tersebut tetap berada di belakang konten dan bergerak bersama dengan halaman.
 
@@ -912,7 +912,7 @@ Properti `background-position` digunakan dalam CSS untuk menentukan posisi awal 
 ```
 ### Hasil
 
-![bg posisition.png](bg%20posisition.png)
+![bg posisition.png](ASET%20CSS/bg%20posisition.png)
 ### Kesimpulan
 Kesimpulan: Dengan menggunakan `background-position`, Anda dapat mengontrol di mana gambar latar belakang akan mulai ditampilkan di dalam elemen HTML. Properti ini memungkinkan penempatan yang tepat dan fleksibel dari gambar latar belakang, baik itu berdasarkan koordinat absolut, nilai relatif, atau persentase dari ukuran elemen.
  
@@ -983,7 +983,7 @@ Program di atas adalah kode HTML dan CSS yang mendefinisikan sebuah tombol denga
 ```
 #### Hasil
 
-![border width.png](border%20width.png)
+![border width.png](ASET%20CSS/border%20width.png)
 #### Kesimpulan
 Kesimpulan dari kode tersebut adalah bahwa CSS memberikan fleksibilitas dalam mendesain dan menyesuaikan tampilan elemen-elemen HTML. Dalam contoh ini, tombol dibuat dengan gaya yang menarik dengan menggunakan kombinasi warna dan border. 
 
@@ -1010,7 +1010,7 @@ Program di atas adalah kode HTML dan CSS yang mendefinisikan sebuah tombol denga
 ```
 #### Hasil
 
-![border style.png](border%20style.png)
+![border style.png](ASET%20CSS/border%20style.png)
 #### Kesimpulan
 Kesimpulan dari kode tersebut adalah bahwa CSS memberikan fleksibilitas dalam mendesain dan menyesuaikan tampilan elemen-elemen HTML. Dalam contoh ini, tombol dibuat dengan gaya yang menarik dengan menggunakan kombinasi warna, border, dan style. 
 ### Border-color
@@ -1038,7 +1038,7 @@ Program di atas adalah kode HTML dan CSS yang mendefinisikan sebuah tombol denga
 ```
 #### Hasil
 
-![border color.png](border%20color.png)
+![border color.png](ASET%20CSS/border%20color.png)
 #### Kesimpulan
 Kesimpulan dari kode tersebut adalah bahwa CSS memberikan fleksibilitas dalam mendesain dan menyesuaikan tampilan elemen-elemen HTML. Dalam contoh ini, tombol dibuat dengan gaya yang menarik dengan menggunakan kombinasi warna, border, dan style.
 ### Border-radius
@@ -1076,7 +1076,7 @@ Kesimpulan dari kode tersebut adalah bahwa CSS memberikan fleksibilitas dalam me
 ```
 #### Hasil
 
-![border radius.png](border%20radius.png)
+![border radius.png](ASET%20CSS/border%20radius.png)
 #### Kesimpulan
 Kesimpulan dari kode tersebut adalah bahwa dengan menggunakan CSS, kita dapat dengan mudah mengontrol tampilan elemen HTML seperti tombol. Properti-properti CSS digunakan untuk menyesuaikan warna, latar belakang, border, dan bahkan bentuk atau sudut tombol sesuai dengan preferensi desain
 ## Padding
@@ -1172,7 +1172,7 @@ Program di atas adalah kode CSS yang mengatur tampilan sebuah tombol dengan kela
 ```
 #### Hasil
 
-![padding left.png](padding%20left.png)
+![padding left.png](ASET%20CSS/padding%20left.png)
 #### Kesimpulan
 Kesimpulan dari kode tersebut adalah bahwa dengan menggunakan CSS, kita dapat dengan mudah mengontrol tampilan elemen HTML seperti tombol. Properti-properti CSS digunakan untuk menyesuaikan warna, latar belakang, border, padding, dan bahkan bentuk atau sudut tombol sesuai dengan preferensi desain.
 ### Padding-right
@@ -1215,7 +1215,7 @@ Program di atas adalah kode CSS yang mengatur tampilan sebuah tombol dengan kela
 ```
 #### Hasil
 
-![padding right.png](padding%20right.png)
+![padding right.png](ASET%20CSS/padding%20right.png)
 #### Kesimpulan
 Kesimpulan dari kode tersebut adalah bahwa dengan menggunakan CSS, kita dapat dengan mudah mengontrol tampilan elemen HTML seperti tombol. Properti-properti CSS digunakan untuk menyesuaikan warna, latar belakang, border, padding, dan bahkan bentuk atau sudut tombol sesuai dengan preferensi desain.
 ### Padding-top
@@ -1257,7 +1257,7 @@ Program di atas adalah kode CSS yang mengatur tampilan sebuah tombol dengan kela
 ```
 #### Hasil
 
-![padding top.png](padding%20top.png)
+![padding top.png](ASET%20CSS/padding%20top.png)
 #### Kesimpulan
 Kesimpulan dari kode tersebut adalah bahwa dengan menggunakan CSS, kita dapat dengan mudah mengontrol tampilan elemen HTML seperti tombol. Properti-properti CSS digunakan untuk menyesuaikan warna, latar belakang, border, padding, dan bahkan bentuk atau sudut tombol sesuai dengan preferensi desain.
 ### Padding-bottom
@@ -1299,7 +1299,7 @@ Program di atas adalah kode CSS yang mengatur tampilan sebuah tombol dengan kela
 ```
 #### Hasil
 
-![padding bottom.png](padding%20bottom.png)
+![padding bottom.png](ASET%20CSS/padding%20bottom.png)
 #### Kesimpulan
 Kesimpulan dari kode tersebut adalah bahwa dengan menggunakan CSS, kita dapat dengan mudah mengontrol tampilan elemen HTML seperti tombol. Properti-properti CSS digunakan untuk menyesuaikan warna, latar belakang, border, padding, dan bahkan bentuk atau sudut tombol sesuai dengan preferensi desain.
 
@@ -1363,7 +1363,7 @@ Program di atas adalah kode CSS yang mengatur tampilan sebuah tombol dengan kela
 
 #### Hasil
 
-![margin left1.png](margin%20left1.png)
+![margin left1.png](ASET%20CSS/margin%20left1.png)
 #### Kesimpulan
 Kesimpulan dari kode tersebut adalah bahwa dengan menggunakan CSS, kita dapat dengan mudah mengontrol tata letak elemen HTML seperti tombol. Properti margin memungkinkan kita untuk mengatur jarak antara elemen tersebut dengan elemen lain di sekitarnya. Dalam hal ini, tombol dipindahkan ke kanan sebesar 300 piksel dari posisi normalnya.
 ### Margin right
@@ -1386,7 +1386,7 @@ Program di atas adalah kode CSS yang mengatur tampilan sebuah tombol dengan kela
 ```
 #### Hasil
 
-![margin right1.png](margin%20left1.png)
+![margin right1.png](ASET%20CSS/margin%20left1.png)
 #### Kesimpulan
 Kesimpulan dari kode tersebut adalah bahwa dengan menggunakan CSS, kita dapat dengan mudah mengontrol tata letak elemen HTML seperti tombol. Properti margin memungkinkan kita untuk mengatur jarak antara elemen tersebut dengan elemen lain di sekitarnya. Dalam hal ini, tombol dipindahkan ke kiri sebesar 300 piksel dari posisi normalnya.
 ### Margin top
@@ -1410,7 +1410,7 @@ Program di atas adalah kode CSS yang mengatur tampilan sebuah tombol dengan kela
 
 #### Hasil
 
-![margin top1.png](margin%20top1.png)
+![margin top1.png](ASET%20CSS/margin%20top1.png)
 #### Kesimpulan
 Kesimpulan dari kode tersebut adalah bahwa dengan menggunakan CSS, kita dapat dengan mudah mengontrol tata letak elemen HTML seperti tombol. Properti margin memungkinkan kita untuk mengatur jarak antara elemen tersebut dengan elemen lain di sekitarnya. Dalam hal ini, tombol dipindahkan ke bawah sebesar 300 piksel dari posisi normalnya.
 ### Margin bottom
@@ -1438,7 +1438,7 @@ Program di atas adalah kode CSS yang mengatur tampilan sebuah tombol dengan kela
 
 #### Hasil
 
-![margin bottom1.png](margin%20bottom1.png)
+![margin bottom1.png](ASET%20CSS/margin%20bottom1.png)
 #### Kesimpulan
 Kesimpulan dari kode tersebut adalah bahwa dengan menggunakan CSS, kita dapat dengan mudah mengontrol tata letak elemen HTML seperti tombol. Properti margin memungkinkan kita untuk mengatur jarak antara elemen tersebut dengan elemen lain di sekitarnya. Dalam hal ini, tombol dipindahkan ke atas sebesar 300 piksel dari posisi normalnya.
 
@@ -1623,7 +1623,7 @@ button:hover {
 ```
 ### Hasil
 
-![HOVER.png](HOVER.png)
+![HOVER.png](ASET%20CSS/HOVER.png)
 ### Kesimpulan
 Kesimpulan: Program tersebut akan mengubah warna teks tombol menjadi magenta saat kursor diarahkan ke atas (hover) pada tombol tersebut. Ini memberikan umpan balik visual kepada pengguna bahwa tombol tersebut bisa diklik atau interaktif. Misalnya, jika Anda memiliki tombol HTML seperti `<button>Klik!</button>`, saat kursor diarahkan ke atas tombol tersebut, warna teksnya akan berubah menjadi magenta.
 ## active
@@ -1640,7 +1640,7 @@ button:active {
 ```
 ### Hasil
 
-![active.png](active.png)
+![active.png](ASET%20CSS/active.png)
 ### Kesimpulan
 Kesimpulan: Program tersebut akan mengubah warna teks tombol menjadi biru saat tombol tersebut sedang dalam keadaan aktif, yaitu saat tombol ditekan oleh pengguna. Ini memberikan umpan balik visual kepada pengguna bahwa tindakan yang mereka lakukan sedang berlangsung. Misalnya, jika Anda memiliki tombol HTML seperti `<button>Klik!</button>`, saat tombol tersebut ditekan oleh pengguna, warna teksnya akan berubah menjadi biru.
 ## link
@@ -1656,7 +1656,7 @@ button:link {
 ```
 ### Hasil
 
-![link.png](active.png)
+![link.png](ASET%20CSS/active.png)
 ### Kesimpulan
 Kesimpulan: Program tersebut akan mengubah warna teks tombol menjadi merah saat tombol tersebut dianggap sebagai link yang belum dikunjungi. Ini memberikan umpan balik visual kepada pengguna bahwa tombol tersebut merupakan tautan yang dapat diklik. Misalnya, jika Anda memiliki tombol HTML seperti `<button>Klik!</button>` yang ditautkan ke halaman lain, saat tombol tersebut belum pernah dikunjungi oleh pengguna, warna teksnya akan berubah menjadi merah.
 ## visited
@@ -1672,7 +1672,7 @@ button:visited {
 ```
 ### Hasil
 
-![visited.png](visited.png)
+![visited.png](ASET%20CSS/visited.png)
 ### Kesimpulan
 Kesimpulan: Program tersebut akan mengubah warna teks tombol menjadi hijau saat tombol tersebut telah dikunjungi oleh pengguna. Ini memberikan umpan balik visual kepada pengguna bahwa mereka telah mengunjungi tombol tersebut. Misalnya, jika Anda memiliki tombol HTML seperti `<button>Klik!</button>` yang telah dikunjungi oleh pengguna sebelumnya, warna teksnya akan berubah menjadi hijau.
 
@@ -1709,7 +1709,7 @@ button:hover {
 ```
 ### Hasil
 
-![transition.png](transition.png)
+![transition.png](ASET%20CSS/transition.png)
 ### Kesimpulan
 Kesimpulan: Program tersebut akan mengubah tampilan tombol saat kursor diarahkan ke atasnya. Tombol akan memiliki latar belakang merah, lebar 200 piksel, dan teks berwarna putih. Perubahan-perubahan tersebut akan ditampilkan dengan efek transisi yang berlangsung selama 0.3 detik dan dimulai dengan kecepatan yang lambat. Misalnya, jika Anda memiliki tombol HTML seperti `<button>Click Me</button>`, saat kursor diarahkan ke atas tombol tersebut, tampilannya akan berubah sesuai dengan aturan CSS di atas.
 ## Transition-delay
@@ -1732,7 +1732,7 @@ button:hover {
 ```
 ### Hasil
 
-![delay.png](delay.png)
+![delay.png](ASET%20CSS/delay.png)
 
 ### Kesimpulan
 Program tersebut akan membuat efek transisi pada tombol saat kursor diarahkan ke atasnya. Tombol akan memiliki latar belakang merah, lebar 200 piksel, dan teks berwarna putih. Perubahan tersebut akan ditampilkan dengan efek transisi yang dimulai setelah 1 detik penundaan dan berlangsung selama 2 detik. Misalnya, saat kursor diarahkan ke atas tombol, perubahan tampilan tombol akan dimulai setelah 1 detik dan akan berlangsung selama 2 detik dengan transisi yang halus.
@@ -1746,7 +1746,7 @@ transition-duration: 2s;
 ```
 ### Hasil
 
-![transition duration.png](transition%20duration.png)
+![transition duration.png](ASET%20CSS/transition%20duration.png)
 ### Kesimpulan
 Kesimpulan: Program tersebut akan membuat efek transisi pada elemen-elemen yang menerapkan transisi untuk memiliki durasi selama 2 detik. Ini berarti perubahan yang terjadi pada properti CSS yang ditentukan untuk transisi akan berlangsung secara halus selama 2 detik ketika terjadi perubahan pada elemen tersebut
 ## Transition-property
@@ -1773,7 +1773,7 @@ button:hover {
 ```
 ### Hasil
 
-![property.png](transition%20duration.png)
+![property.png](ASET%20CSS/transition%20duration.png)
 ### Kesimpulan
 Kesimpulan: Program tersebut mengatur tampilan tombol saat kursor diarahkan ke atasnya dengan efek transisi. Tombol akan berubah warna latar belakang menjadi merah, lebar tombol menjadi 200 piksel, dan warna teks tombol menjadi putih. Transisi hanya diterapkan pada perubahan lebar tombol, dengan lebar tombol yang berubah menjadi 300 piksel selama 2 detik. Ini memberikan efek visual yang halus dan menarik saat tombol di-hover oleh pengguna.
 ## Transition-timing-function
@@ -1798,7 +1798,7 @@ button:hover {
 ```
 ### Hasil
 
-![timing function.png](timing%20function.png)
+![timing function.png](ASET%20CSS/timing%20function.png)
 ### Kesimpulan
 Kesimpulan: Program tersebut mengatur tampilan tombol saat kursor diarahkan ke atasnya dengan efek transisi. Tombol akan berubah warna latar belakang menjadi merah, lebar tombol menjadi 200 piksel, dan warna teks tombol menjadi putih. Efek transisi akan memiliki durasi 2 detik dan akan dimulai dengan kecepatan yang lambat. Ini memberikan efek visual yang halus dan menarik saat tombol di-hover oleh pengguna.
 
@@ -1913,7 +1913,7 @@ Kesimpulan: Program tersebut mengatur tampilan tombol saat kursor diarahkan ke a
 - `button:active`: Mengatur gaya tombol saat ditekan dengan melakukan transformasi scaling
 ### Hasil
 
-![vid](ass.mp4)
+![vid](ASET%20CSS/ass.mp4)
 # Transform
 ## Transform scale
 ### Penjelasan
@@ -2469,6 +2469,6 @@ body {
 - `.like img`: Mengatur gaya untuk gambar di dalam tombol "suka".
 - `.item3 img`: Mengatur gaya untuk gambar di dalam item 3.
 ### Hasil
-![image](aa.png)
+![image](ASET%20CSS/aa.png)
 ### Kesimpulan
 Program ini menggunakan HTML untuk membuat struktur konten dan CSS untuk merancang tampilannya. Elemen-elemen seperti gambar, teks, dan tombol diberikan gaya untuk menciptakan tampilan yang menarik dan responsif. Penggunaan posisi relatif, absolut, dan sticky memungkinkan penempatan yang tepat dari elemen-elemen tersebut di halaman.
