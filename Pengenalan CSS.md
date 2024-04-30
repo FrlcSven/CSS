@@ -1929,7 +1929,7 @@ button:active {
 ```
 ### Hasil
 
-![[scale.png]]
+![scale.png](ASET%20CSS/scale.png)
 
 ### Kesimpulan
 Kesimpulan: Program tersebut mengatur tampilan tombol saat tombol sedang dalam keadaan aktif, yaitu saat tombol sedang ditekan oleh pengguna. Efek transformasi `scale()` digunakan untuk memperkecil ukuran tombol menjadi 0.75 kali ukuran aslinya saat tombol ditekan, memberikan efek visual yang menarik dan memberi umpan balik kepada pengguna bahwa tombol telah ditekan.
@@ -1947,7 +1947,7 @@ button:active {
 ```
 ### Hasil
 
-![[scalex1.png]]
+![scalex1.png](ASET%20CSS/scalex1.png)
 ### Kesimpulan
 **Kesimpulan**: Program tersebut mengatur tampilan tombol saat tombol sedang dalam keadaan aktif, yaitu saat tombol sedang ditekan oleh pengguna. Efek transformasi `scaleX()` digunakan untuk memperkecil lebar tombol menjadi setengah dari lebar aslinya saat tombol ditekan, memberikan efek visual yang menarik dan memberi umpan balik kepada pengguna bahwa tombol telah ditekan.
 ## Transform rotate
@@ -1964,7 +1964,7 @@ button:active {
 ```
 ### Hasil
 
-![[rotate.png]]
+![rotate.png](ASET%20CSS/rotate.png)
 ### Kesimpulan
 Kesimpulan: Program tersebut mengatur tampilan tombol saat tombol sedang dalam keadaan aktif, yaitu saat tombol sedang ditekan oleh pengguna. Efek transformasi `rotate()` digunakan untuk memutar tombol sebesar 45 derajat saat tombol ditekan, memberikan efek visual yang menarik dan memberi umpan balik kepada pengguna bahwa tombol telah ditekan.
 ## Transform skewX
@@ -1998,7 +1998,7 @@ button:active {
 ```
 ### Hasil
 
-![[skew.png]]
+![skew.png](ASET%20CSS/skew.png)
 ### Kesimpulan
 Kesimpulan: Program tersebut mengatur tampilan tombol saat tombol sedang dalam keadaan aktif, yaitu saat tombol sedang ditekan oleh pengguna. Efek transformasi `skew()` digunakan untuk memiringkan tombol sebesar 20 derajat secara horizontal dan 5 derajat secara vertikal saat tombol ditekan, memberikan efek visual yang menarik dan memberi umpan balik kepada pengguna bahwa tombol telah ditekan.
 ## Transform translate
@@ -2016,6 +2016,7 @@ button:active {
 ### Hasil
 
 ![[translate.png]]
+
 ### Kesimpulan
 **Kesimpulan**: Program tersebut mengatur tampilan tombol saat tombol sedang dalam keadaan aktif, yaitu saat tombol sedang ditekan oleh pengguna. Efek transformasi `translate()` digunakan untuk memindahkan posisi tombol sejauh 5 piksel ke kanan dan 12 piksel ke bawah saat tombol ditekan, memberikan efek visual yang menarik dan memberi umpan balik kepada pengguna bahwa tombol telah ditekan.
 ## Transform matrix
@@ -2037,7 +2038,7 @@ button:active {
 ```
 ### Hasil
 
-![[matrix.png]]
+![matrix.png](ASET%20CSS/matrix.png)
 ### Kesimpulan
 Kesimpulan: Program tersebut mengatur tampilan tombol saat tombol sedang dalam keadaan aktif, yaitu saat tombol sedang ditekan oleh pengguna. Efek transformasi matriks kompleks diberikan untuk memberikan perubahan yang lebih rumit pada tombol saat tombol ditekan. Hal ini dapat memberikan efek visual yang menarik dan unik tergantung pada nilai matriks yang diberikan.
 # Flexbox 
