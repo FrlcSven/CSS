@@ -51,7 +51,7 @@ Baris pertama (`p`) adalah selector CSS, yang menargetkan semua elemen `<p>` Di 
 
 ## Hasil
 
-![p pertama.png](p%20pertama.png)
+![p pertama.png](ASET%20CSS/p%20pertama.png)
           
 # Percobaan Kedua
 ## Kode CSS
