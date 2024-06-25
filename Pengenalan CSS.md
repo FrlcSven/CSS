@@ -2137,83 +2137,144 @@ Contoh`flex-start` untuk menempatkan flex items di awal (mulai) sumbu utama.`fle
 
 ## Flexbox (Tantangan)
 ### Penjelasan HTML
-- `<!DOCTYPE html>`: Mendefinisikan jenis dokumen HTML.
-- `<html lang="en">`: Mengawali dokumen HTML dengan bahasa Inggris.
-- `<head>`: Bagian kepala dokumen yang berisi informasi meta dan judul.
-- `<meta charset="UTF-8">`: Mendefinisikan karakter set dokumen sebagai UTF-8.
-- `<meta name="viewport" content="width=device-width, initial-scale=1.0">`: Mengatur tampilan responsif di perangkat dengan lebar layar yang berbeda.
-- `<title>Document</title>`: Judul halaman web.
-- `<link rel="stylesheet" href="tampilanweb.css">`: Menghubungkan halaman HTML dengan file CSS eksternal.
-- `<body bgcolor="purple">`: Mengatur warna latar belakang halaman menjadi ungu (purple).
-- `<span>`: Membuat bagian teks menjadi bagian inline.
-- `<div class="text">`: Membuat sebuah div dengan kelas "text" yang berisi teks "Selamat datang".
-- `<span class="text2">`: Membuat sebuah span dengan kelas "text2" yang berisi teks "di web Rahmat".
-- `<img src="naon.jpg" class="foto">`: Menampilkan gambar dengan nama "naon.jpg" dengan kelas "foto".
-- `<button class="tombol">Klik ini</button>`: Membuat sebuah tombol dengan teks "Klik ini" dan kelas "tombol".
+1. Struktur Dasar HTML:
+
+<!DOCTYPE html>: Deklarasi tipe dokumen yang menunjukkan bahwa ini adalah dokumen HTML.
+<html lang="en">: Elemen akar HTML yang mendefinisikan bahasa halaman sebagai bahasa Inggris (en).
+<head>: Bagian kepala dokumen, berisi informasi meta dan link ke file CSS.
+<title>Document</title>: Judul halaman yang ditampilkan di tab browser.
+<link rel="stylesheet" href="flexbox.css">: Link ke file CSS eksternal yang berisi gaya untuk halaman.
+<body bgcolor="purple">: Bagian badan dokumen, berisi konten yang terlihat di halaman. Atribut bgcolor="purple" menetapkan latar belakang halaman menjadi ungu.
+2. Konten Halaman:
+
+<div class="main-container">: Elemen div dengan kelas "main-container" yang berfungsi sebagai container utama untuk konten halaman.
+<div class="hero-container">: Elemen div dengan kelas "hero-container" yang berfungsi sebagai container untuk bagian "hero" dari halaman.
+<div class="item p">: Elemen div dengan kelas "item" dan "p" yang berisi teks "Selamat Datang" dan "di Web Farhan" serta tombol "klik saya".
+<p>: Elemen paragraf yang berisi teks "Selamat Datang" dan "di Web Farhan".
+<b>Web Farhan</b>: Elemen bold yang membuat teks "Web Farhan" menjadi tebal.
+<button>: Elemen tombol yang berisi teks "klik saya".
+<div>: Elemen div yang berisi elemen span dengan gambar "samurai.jpg".
+<span class="img">: Elemen span dengan kelas "img" yang membungkus elemen gambar.
+<img src="samurai.jpg" width="350px" height="350px" align="right">: Elemen gambar yang menampilkan gambar "samurai.jpg" dengan lebar 350 piksel dan tinggi 350 piksel, dan diposisikan ke kanan.
+3. Gaya CSS (didefinisikan dalam flexbox.css):
+
+.main-container: Gaya untuk elemen dengan kelas "main-container", seperti yang dijelaskan sebelumnya.
+.hero-container: Gaya untuk elemen dengan kelas "hero-container", seperti yang dijelaskan sebelumnya.
+.item: Gaya untuk elemen dengan kelas "item", seperti yang dijelaskan sebelumnya.
+.p: Gaya untuk elemen dengan kelas "p", seperti yang dijelaskan sebelumnya.
+img: Gaya untuk elemen img, seperti yang dijelaskan sebelumnya.
+button: Gaya untuk elemen button, seperti yang dijelaskan sebelumnya.
 ### Penjelasan CSS
-- `.text` dan `.text2`: Mengatur gaya teks untuk kelas "text" dan "text2". Menggunakan font Times New Roman, ukuran font 30mm, dan warna putih.
-- `.foto`: Mengatur tampilan gambar dengan kelas "foto". Menerapkan display block, membuat sudut gambar menjadi bulat dengan border-radius, mengatur lebar dan tinggi gambar, mengatur posisi gambar dengan margin-left dan margin-top, serta memberikan border putih dengan lebar 10px dan gaya solid.
-- `.tombol`: Mengatur tampilan tombol dengan kelas "tombol". Memberikan warna teks dan border oranye, mengatur lebar dan tinggi tombol, mengatur tampilan tombol dengan display block, memberikan warna latar belakang transparan, mengatur border dengan lebar 3px dan gaya solid, mengatur posisi tombol dengan margin-top dan margin-left, serta mengatur ukuran font.
+display:flex;: Mengatur elemen dengan kelas main-container menjadi container flexbox.
+height: 100vh;: Menetapkan tinggi container menjadi 100% tinggi viewport (layar).
+justify-content: space-around;: Mendistribusikan item flex secara merata di dalam container, dengan ruang yang sama di antara item dan di tepi container.
+align-items: center;: Menyelaraskan item flex secara vertikal di tengah container.
+background-color: purple;: Menetapkan warna latar belakang container menjadi ungu.
+
+display:flex;: Mengatur elemen dengan kelas hero-container menjadi container flexbox.
+height: 100vh;: Menetapkan tinggi container menjadi 100% tinggi viewport.
+justify-content: space-between;: Mendistribusikan item flex secara merata di dalam container, dengan ruang yang sama di antara item dan item pertama dan terakhir berada di tepi container.
+align-items: center;: Menyelaraskan item flex secara vertikal di tengah container.
+background-color: purple;: Menetapkan warna latar belakang container menjadi ungu.
+
+width: 500px;: Menetapkan lebar elemen dengan kelas item menjadi 500 piksel.
+height: 250px;: Menetapkan tinggi elemen dengan kelas item menjadi 250 piksel.
+background-color: none;: Menetapkan warna latar belakang elemen menjadi transparan (tidak ada warna).
+
+font-size: 65px;: Menetapkan ukuran font elemen dengan kelas p menjadi 65 piksel.
+font-family: 'arial';: Menetapkan font elemen menjadi "Arial".
+margin-top: 40px;, margin-bottom: 100px;, margin-left: 50px;, margin-right: 100px;: Menetapkan margin atas, bawah, kiri, dan kanan elemen.
+color: aliceblue;: Menetapkan warna teks elemen menjadi "aliceblue".
+
+margin-right: 100px;, margin-top: -10px;: Menetapkan margin kanan dan atas elemen img.
+border: 10px solid white;: Menetapkan batas elemen img dengan lebar 10 piksel, warna putih, dan gaya solid.
+border-radius: 1500px 1500px;: Menetapkan radius batas elemen img menjadi 1500 piksel, yang membuat elemen berbentuk lingkaran.
+
+background-color: purple;: Menetapkan warna latar belakang elemen button menjadi ungu.
+width: 150px;, height: 50px;: Menetapkan lebar dan tinggi elemen button.
+border-width: 2px;, border-color: orange;: Menetapkan lebar dan warna batas elemen button.
+color: orange;: Menetapkan warna teks elemen button menjadi oranye.
+margin-bottom: 20px;, margin-left: 290px;: Menetapkan margin bawah dan kiri elemen button.
+box-shadow: 20px;: Menetapkan efek bayangan pada elemen button.
 ### Kode Program
 ```HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="tampilanweb.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="flexbox.css">
 </head>
 <body bgcolor="purple">
-    <span>
-        <div class="text">Selamat datang
-        </div>
-    </span><br>
-    <span class="text2">di web farhan</span><br>
-    <img src="naon.jpg" class="foto">
-    <button class="tombol">Klik ini</button>
+    <div class="main-container">
+    <div class="hero-container"> 
+        <div class="item p">
+            <p> Selamat Datang <br>
+            di <b>Web Farhan</b> </P>
+            <button> klik saya </button>
+        </div>
+        <div>
+            <span class="img">
+                <img src="samurai.jpg" width="350px" height="350px" align="right">
+            </span>
+    </div>
+    </div>
+</div>
 </body>
 </html>
 ```
 
 ```CSS
-.text{
-    font-family: 'Times New Roman';
-    font-size: 30mm;
-    color: white;
-}
-
-.text2{
-    font-family: 'Times New Roman';
-    font-size: 30mm;
-    color: white;
-}
-
-.foto{
-    display: block;
-    border-radius: 1000px;
-    width: 400px;
-    height: 400px;
-    margin-left: 735px;
-    margin-top: -215px;
-    border-width: 10px;
-    border-color: white;
-    border-style: solid;
-}
-
-.tombol{
-    color: orangered;
-    border-color: orangered;
-    width: 160px;
-    height: 85px;
-    display: block;
-    background-color: transparent;
-    border-width: 3px;
-    border-style: solid;
-    margin-top: -200px;
-    margin-left: 13cm;
-    font-size: 20px;
-}
+.main-container {
+    display:flex;
+    height: 100vh;
+    justify-content: space-around ;
+    align-items: center ;
+     background-color: purple;
+    
+    }
+    
+    .hero-container {
+     display:flex;
+     height: 100vh;
+     justify-content: space-between;
+     align-items: center;
+     background-color: purple;
+    }
+    
+    .item {
+     width: 500px;
+     height: 250px;
+     background-color: none;
+    }
+    
+    .p {
+     font-size: 65px;
+     font-family: 'arial';
+     margin-top: 40px;
+     margin-bottom: 100px;
+     margin-left: 50px;
+     margin-right: 100px; 
+     color: aliceblue;
+    }
+    
+    img {
+    margin-right: 100px;
+     margin-top: -10px;
+     border: 10px solid white;
+     border-radius: 1500px 1500px;
+    }
+    
+    button {
+     background-color: purple;
+     width: 150px;
+     height: 50px;
+     border-width: 2px;
+     color: orange;
+     border-color: orange;
+     margin-bottom: 20px;
+     margin-left: 290px; 
+     box-shadow: 20px;
+    }
 ```
 ### Hasil
 ![image](ASET%20CSS/tflex.png)
