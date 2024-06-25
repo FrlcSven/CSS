@@ -2277,7 +2277,7 @@ box-shadow: 20px;: Menetapkan efek bayangan pada elemen button.
     }
 ```
 ### Hasil
-![image](ASET%20CSS/tflex.png)
+![image](fb.png)
 
 # Position
 
