@@ -1546,63 +1546,47 @@ button {
 - `.tombol`: Mengatur tampilan tombol dengan kelas "tombol". Memberikan warna teks dan border oranye, mengatur lebar dan tinggi tombol, mengatur tampilan tombol dengan display block, memberikan warna latar belakang transparan, mengatur border dengan lebar 3px dan gaya solid, mengatur posisi tombol dengan margin-top dan margin-left, serta mengatur ukuran font.
 ### Kode Program
 ```HTML
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="tampilanweb.css">
-</head>
-<body bgcolor="purple">
-    <span>
-        <div class="text">Selamat datang
-        </div>
-    </span><br>
-    <span class="text2">di web Rahmat</span><br>
-    <img src="naon.jpg" class="foto">
-    <button class="tombol">Klik ini</button>
-</body>
+<!DOCKTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="Style.css"
+  </head>
+  <body><img  align:"right" src="samurai.jpg" width="150" height="150" >
+    <span>
+    <p>Selamat Datang<br><b>di Web Farhan!</b></p>
+    </span>
+    <button>Klik disini!</button>
+  </body>
 </html>
 ```
 
 ```CSS
-.text{
-    font-family: 'Times New Roman';
-    font-size: 30mm;
-    color: white;
+body {
+    background-color: aqua;
 }
-
-.text2{
-    font-family: 'Times New Roman';
-    font-size: 30mm;
-    color: white;
+img {
+    border-radius: 100% 100%;
+    border-width:10px ;
+    border-style: solid;
+    border-color: white;
+    margin-left: 220px;
 }
-
-.foto{
-    display: block;
-    border-radius: 1000px;
-    width: 400px;
-    height: 400px;
-    margin-left: 735px;
-    margin-top: -215px;
-    border-width: 10px;
-    border-color: white;
-    border-style: solid;
+p {
+    font-family: courier;
+    font-size: 25px;
+    color: black;
+    margin-left: ;
+    margin-top: -150px;
 }
-
-.tombol{
-    color: orangered;
-    border-color: orangered;
-    width: 160px;
-    height: 85px;
-    display: block;
-    background-color: transparent;
-    border-width: 3px;
-    border-style: solid;
-    margin-top: -200px;
-    margin-left: 13cm;
-    font-size: 20px;
+button {
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+    color: red;
+    border-color: red;
+    margin-top: ;
+    margin-left: 70px;
 }
 ```
 ### Hasil Pengerjaan
