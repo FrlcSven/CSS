@@ -1527,71 +1527,116 @@ button {
 9. selesai
 ## Box Model(Tantangan)
 ### Penjelasan HTML
-- `<!DOCTYPE html>`: Mendefinisikan jenis dokumen HTML.
-- `<html lang="en">`: Mengawali dokumen HTML dengan bahasa Inggris.
-- `<head>`: Bagian kepala dokumen yang berisi informasi meta dan judul.
-- `<meta charset="UTF-8">`: Mendefinisikan karakter set dokumen sebagai UTF-8.
-- `<meta name="viewport" content="width=device-width, initial-scale=1.0">`: Mengatur tampilan responsif di perangkat dengan lebar layar yang berbeda.
-- `<title>Document</title>`: Judul halaman web.
-- `<link rel="stylesheet" href="tampilanweb.css">`: Menghubungkan halaman HTML dengan file CSS eksternal.
-- `<body bgcolor="purple">`: Mengatur warna latar belakang halaman menjadi ungu (purple).
-- `<span>`: Membuat bagian teks menjadi bagian inline.
-- `<div class="text">`: Membuat sebuah div dengan kelas "text" yang berisi teks "Selamat datang".
-- `<span class="text2">`: Membuat sebuah span dengan kelas "text2" yang berisi teks "di web Rahmat".
-- `<img src="naon.jpg" class="foto">`: Menampilkan gambar dengan nama "naon.jpg" dengan kelas "foto".
-- `<button class="tombol">Klik ini</button>`: Membuat sebuah tombol dengan teks "Klik ini" dan kelas "tombol".
+1. Struktur Dasar HTML:
+
+<!DOCTYPE html>: Deklarasi tipe dokumen yang menunjukkan bahwa ini adalah dokumen HTML.
+<html lang="en">: Elemen akar HTML yang mendefinisikan bahasa halaman sebagai bahasa Inggris (en).
+<head>: Bagian kepala dokumen, berisi informasi meta dan link ke file CSS.
+<title>Document</title>: Judul halaman yang ditampilkan di tab browser.
+<link rel="stylesheet" href="style.css">: Link ke file CSS eksternal yang berisi gaya untuk halaman.
+<body bgcolor="purple">: Bagian badan dokumen, berisi konten yang terlihat di halaman. Atribut bgcolor="purple" menetapkan latar belakang halaman menjadi ungu.
+2. Konten Halaman:
+
+<span>: Elemen span digunakan untuk membungkus teks "Selamat datang" dan "di web Farhan" untuk tujuan styling.
+<div class="text">Selamat datang</div>: Elemen div dengan kelas "text" yang berisi teks "Selamat datang". Gaya untuk kelas "text" didefinisikan dalam file CSS.
+<span class="text2">di web Farhan</span>: Elemen span dengan kelas "text2" yang berisi teks "di web Farhan". Gaya untuk kelas "text2" didefinisikan dalam file CSS.
+<br>: Tag pemisah baris untuk membuat baris baru.
+<img src="samurai.jpg" class="foto">: Elemen img yang menampilkan gambar "samurai.jpg". Atribut src menentukan sumber gambar, dan kelas "foto" menerapkan gaya yang didefinisikan dalam file CSS.
+<button class="tombol">Klik ini</button>: Elemen button dengan kelas "tombol" yang berisi teks "Klik ini". Gaya untuk kelas "tombol" didefinisikan dalam file CSS.
+3. Gaya CSS (didefinisikan dalam style.css):
+
+.text: Gaya untuk elemen dengan kelas "text", seperti yang dijelaskan sebelumnya.
+.text2: Gaya untuk elemen dengan kelas "text2", seperti yang dijelaskan sebelumnya.
+.foto: Gaya untuk elemen img dengan kelas "foto", yang membuatnya berbentuk lingkaran dengan batas putih.
+.tombol: Gaya untuk elemen button dengan kelas "tombol", yang membuatnya memiliki warna oranye kemerahan, batas oranye kemerahan, dan latar belakang transparan.
 ### Penjelasan CSS
-- `.text` dan `.text2`: Mengatur gaya teks untuk kelas "text" dan "text2". Menggunakan font Times New Roman, ukuran font 30mm, dan warna putih.
-- `.foto`: Mengatur tampilan gambar dengan kelas "foto". Menerapkan display block, membuat sudut gambar menjadi bulat dengan border-radius, mengatur lebar dan tinggi gambar, mengatur posisi gambar dengan margin-left dan margin-top, serta memberikan border putih dengan lebar 10px dan gaya solid.
-- `.tombol`: Mengatur tampilan tombol dengan kelas "tombol". Memberikan warna teks dan border oranye, mengatur lebar dan tinggi tombol, mengatur tampilan tombol dengan display block, memberikan warna latar belakang transparan, mengatur border dengan lebar 3px dan gaya solid, mengatur posisi tombol dengan margin-top dan margin-left, serta mengatur ukuran font.
+font-family: 'Times New Roman';: Menetapkan font elemen dengan kelas "text" dan "text2" menjadi "Times New Roman".
+font-size: 30mm;: Menetapkan ukuran font menjadi 30 milimeter untuk kedua kelas.
+color: white;: Menetapkan warna teks menjadi putih.
+display: block;: Membuat elemen menjadi elemen tingkat blok, memungkinkannya untuk mengambil seluruh lebar kontainernya.
+border-radius: 1000px;: Membuat radius batas yang sangat besar, secara efektif membuat elemen berbentuk lingkaran.
+width: 400px;: Menetapkan lebar elemen menjadi 400 piksel.
+height: 400px;: Menetapkan tinggi elemen menjadi 400 piksel.
+margin-left: 735px;: Menetapkan margin kiri menjadi 735 piksel, memposisikan elemen secara horizontal.
+margin-top: -215px;: Menetapkan margin atas menjadi -215 piksel, memposisikan elemen secara vertikal. Ini kemungkinan tumpang tindih dengan elemen lain di halaman.
+border-width: 10px;: Menetapkan lebar batas menjadi 10 piksel.
+border-color: white;: Menetapkan warna batas menjadi putih.
+border-style: solid;: Menetapkan gaya batas menjadi solid.
+color: orangered;: Menetapkan warna teks menjadi oranye kemerahan.
+border-color: orangered;: Menetapkan warna batas menjadi oranye kemerahan.
+width: 160px;: Menetapkan lebar menjadi 160 piksel.
+height: 85px;: Menetapkan tinggi menjadi 85 piksel.
+display: block;: Membuat elemen menjadi elemen tingkat blok.
+background-color: transparent;: Menetapkan warna latar belakang menjadi transparan.
+border-width: 3px;: Menetapkan lebar batas menjadi 3 piksel.
+border-style: solid;: Menetapkan gaya batas menjadi solid.
+margin-top: -200px;: Menetapkan margin atas menjadi -200 piksel, kemungkinan tumpang tindih dengan elemen lain.
+margin-left: 13cm;: Menetapkan margin kiri menjadi 13 sentimeter, memposisikan elemen secara horizontal.
+font-size: 20px;: Menetapkan ukuran font menjadi 20 piksel.
 ### Kode Program
 ```HTML
-<!DOCKTYPE html>
-<html>
-  <head>
-    <title></title>
-    <link rel="stylesheet" href="Style.css"
-  </head>
-  <body><img  align:"right" src="samurai.jpg" width="150" height="150" >
-    <span>
-    <p>Selamat Datang<br><b>di Web Farhan!</b></p>
-    </span>
-    <button>Klik disini!</button>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="purple">
+<span>
+ <div class="text">Selamat datang
+</div>
+</span><br>
+<span class="text2">di web Farhan</span><br>
+<img src="samurai.jpg" class="foto">
+<button class="tombol">Klik ini</button>
+</body>
 </html>
 ```
 
 ```CSS
-body {
-    background-color: aqua;
-}
-img {
-    border-radius: 100% 100%;
-    border-width:10px ;
-    border-style: solid;
-    border-color: white;
-    margin-left: 220px;
-}
-p {
-    font-family: courier;
-    font-size: 25px;
-    color: black;
-    margin-left: ;
-    margin-top: -150px;
-}
-button {
-    width: 100px;
-    height: 50px;
-    background-color: aqua;
-    color: red;
-    border-color: red;
-    margin-top: ;
-    margin-left: 70px;
-}
+.text{
+    font-family: 'Times New Roman';
+     font-size: 30mm;
+    color: white;
+    }
+    
+    .text2{
+     font-family: 'Times New Roman';
+     font-size: 30mm;
+     color: white;
+    }
+    
+    .foto{
+     display: block;
+     border-radius: 1000px;
+     width: 400px;
+     height: 400px;
+     margin-left: 735px;
+     margin-top: -215px;
+     border-width: 10px;
+     border-color: white;
+     border-style: solid;
+    }
+    
+    .tombol{
+     color: orangered;
+     border-color: orangered;
+     width: 160px;
+     height: 85px;
+     display: block;
+     background-color: transparent;
+     border-width: 3px;
+     border-style: solid;
+     margin-top: -200px;
+     margin-left: 13cm;
+     font-size: 20px;
+    }
 ```
 ### Hasil Pengerjaan
 
-![image](ASET%20CSS/studi.png)
+![image](B.png)
 # Pseudo-classes
 ## Hover
 ### Penjelasan
